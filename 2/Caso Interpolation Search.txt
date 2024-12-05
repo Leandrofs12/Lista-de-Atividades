@@ -1,0 +1,2 @@
+Quando o Interpolation Search é mais eficiente que o Binary Search?
+Listas com Intervalos Uniformes e Muito Grandes. O Interpolation Search é mais eficiente porque faz uma estimativa do índice baseado na posição relativa do valor. Isso reduz o número de comparações.
