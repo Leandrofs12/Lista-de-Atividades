@@ -1,0 +1,1 @@
+Quando o intervalo de busca é muito grande e os dados são densos, o Ternary Search pode ser mais eficiente porque ele divide o intervalo em 3 partes, reduzindo a busca de maneira mais agressiva do que o Binary Search. Isso pode reduzir o número de comparações em alguns casos específicos.
