@@ -1,0 +1,7 @@
+A variável x armazena o comprimento do array.
+A linha buckets = [[] for _ in range(x)] cria um conjunto de baldes vazios. O número de baldes será igual ao número de elementos na lista original.
+O índice do balde é calculado por index = int(num * x). Isso é feito para mapear cada número para um dos baldes com base no seu valor. O cálculo num * x mapeia os números de 0 a 1 para um intervalo de inteiros que é usado como índice.
+Cada número da lista original é colocado no balde que corresponde ao índice calculado.
+Cada balde é ordenado usando o método .sort() do Python, que por padrão usa o algoritmo Timsort.
+A ordenação é feita dentro de cada balde individualmente, o que garante que os elementos dentro de cada balde fiquem organizados.
+Após ordenar os baldes, todos os elementos ordenados dentro dos baldes são combinados em uma única lista.
