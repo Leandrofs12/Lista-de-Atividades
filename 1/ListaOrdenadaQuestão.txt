@@ -1,0 +1,2 @@
+Por que a lista deve estar ordenada?
+O Binary Search depende da propriedade de que os elementos à esquerda do meio são menores que os à direita. Se a lista não estiver ordenada, essa suposição não será válida, e o algoritmo não funcionará corretamente.
